@@ -61,7 +61,6 @@ class Graph{
                          vec.push_back(nuev);
                          return;
                     }
-                    cout<<"Nodo: " << aux->nod<<endl;
                     aux=aux->sig;
                 }
             }
@@ -118,7 +117,6 @@ class Graph{
 };
 
 int main(){
-    cout<<"eee"<<endl;
     Graph a;
     a.add(1);
     a.add(2);
